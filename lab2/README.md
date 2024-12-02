@@ -37,7 +37,6 @@ Você só deve escrever na saída padrão para os casos de arquivos com mesmo su
 
 O código está organizado na seguinte hierarquia:
 
-<img src="lab2.png" alt="Screenshot" width="20">
 <img src="lab2.png" alt="Screenshot" width="180">
 
 Temos dois diretórios (**lab2/java** e **lab2/python**) que mantêm as implementações em cada uma das linguagens. Para cada linguagem temos os diretórios com a implementação sem concorrência (serial) e com concorrência (**concurrent**). 
