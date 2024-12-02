@@ -10,7 +10,7 @@ Neste laboratório, vocês precisarão melhorar o desempenho da implementação 
 
 O código está organizado na seguinte hierarquia:
 
-![Screenshot](lab1/lab1.png)
+<img src="lab1.png" alt="Screenshot" width="200">
 
 Temos dois diretórios (**lab1/java** e **lab1/python**) que mantêm as implementações em cada uma das linguagens. Para cada linguagem temos um diretório com a implementação **sem concorrência (serial)**.
 
