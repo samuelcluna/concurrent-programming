@@ -1,8 +1,18 @@
 # Lab5 - bodocongo-torrent - 24.1
 
+## Objetivo
+Neste laboratório, exploraremos uma construção essencial de golang para concorrência: **select statements**
+
+Como motivação, iremos construir uma aplicação distribuída. Essa aplicação funciona como um buscador de arquivos para filesharing (pense em `Bittorrent`). Então, um cliente deve procurar que máquinas na rede armazenam o arquivo buscado. Como chave de busca, ele deve passar o hash do arquivo (calcular tal como o sum dos labs passados). Considere que haverá, pelo menos, um grupo de quatro máquinas.
+
+1. O time precisará pensar em um modelo de comunicação. Sockets funcionam. 
+2. Você precisará pensar em um esquema de organização. Completamente P2P ou cliente-servidor? 
+3. Você precisa pensar em um esquema de descoberta. Quais as máquinas que fazem parte do sistema.
+4. Desempenho continua sendo importante. Pense em minimizar o tempo total, do ponto de vista de um cliente, para obter a lista de máquinas (seus IPs). Embora a lista de otimizações possíveis seja enorme, primeiro **FAZ FUNCIONAR**!
+5. Considere que os arquivos buscados estão em um diretório no /tmp. Por exemplo, /tmp/dataset
 
 
-## GRUPO
+## Grupo
 
 - Samuel Cabral de Luna - 121210376
 - Victor Vinicius Freire de Araújo - 1211110361
